@@ -9,11 +9,110 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
+/*-----------------------------------------------------*/
+header{
+    background-color: #20211F;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 5px;
+}
 
+header h1{
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #C9CED6;
+}
+
+/*group selector*/
+h1,h2{
+    color: #20211F;
+}
+/*-----------------------------------------------------*/
+/* nav with flexbox */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* child selector */
+nav > a {
+    border: 1px solid #C9CED6;
+}
+
+nav a:hover {
+    background-color: #873C48;
+}
+
+/* class selector */
+.active {
+    background-color: #873C48;
+}
+/*-----------------------------------------------------*/
+#home {
+    background-color: #F0F1EF;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section, aside {
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #C9CED6;
+    border-radius: 7px;
+}
+
+article {
+    background-color: #F0F1EF;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+/*-----------------------------------------------------*/
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #C9CED6;
+
+}
+
+figcaption {
+    color: #555555;
+    margin-top: 8px;
+}
+
+a[href^="https"] {
+    color: #873C48;
+}
+
+a:focus {
+    outline: 3px solid #873C48;
+}
+
+/*-----------------------------------------------------*/
 footer {
     background-color: #20211F;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     margin-top: 40px;
 }
@@ -22,10 +121,23 @@ footer p {
     margin: 8px 0;
     font-size: 14px;
 }
-figure img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 8px;
-    border: 1px solid #C9CED6;
+
+/* Responsive design */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    main {
+        padding: 12px;
+    }
+
+    section, aside, article {
+        padding: 15px;
+    }
 }
