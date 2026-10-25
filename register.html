@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register | Robotics CLub</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Robotics Club</h1>
@@ -18,63 +20,56 @@
     </header>
     <main>
         <section id=" register">
-<h2>Join Our Events</h2>
-<p>Complete the form below to register for Robotice Club event.</p>
-        <form id="register-form">
-            <label for="full-name">Full Name:</label>
-            <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" minlength="3" required>
+            <h2>Join Our Events</h2>
+            <p>Complete the form below to register for Robotice Club event.</p>
+            <form id="register-form">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" minlength="3"
+                    required>
 
-            <label for="email">University Email:</label>
-            <input type="email" id="email" name="email" placeholder="student@university.edu.com" required>
+                <label for="email">University Email:</label>
+                <input type="email" id="email" name="email" placeholder="student@university.edu.com" required>
 
-            <label for="phone">Phone Number:</label>
-            <input type ="tel" id="phone" name="phone" placeholder="03001234567" pattern="03[0-9]{9}" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="03001234567" pattern="03[0-9]{9}" required>
 
-            <label for="event">Choose an Event:</label>
-            <select id="event" name="event" required>
-                <option value="">Select an event</option>
-                <option value="Robotics Workshop">Robotics Workshop</option>
-                <option value="Robot Programming Workshop">Robot Programming Workshop</option>
-                <option value="Robotics Exhibition">Robotics Exhibition</option>
-                <option value="Robotics Competition">Robotics Competition</option>
-            </select>
-            <fieldset>
-                <legend>How did you hear about us?</legend>
-                <input type="checkbox" id="social-media" name="source" value="Social Media">
-                <label for="social-media">Social Media</label>
+                <label for="event">Choose an Event:</label>
+                <select id="event" name="event" required>
+                    <option value="">Select an event</option>
+                    <option value="Robotics Workshop">Robotics Workshop</option>
+                    <option value="Robot Programming Workshop">Robot Programming Workshop</option>
+                    <option value="Robotics Exhibition">Robotics Exhibition</option>
+                    <option value="Robotics Competition">Robotics Competition</option>
+                </select>
+                <fieldset>
+                    <legend>How did you hear about us?</legend>
+                    <input type="checkbox" id="social-media" name="source" value="Social Media">
+                    <label for="social-media">Social Media</label>
 
-                <input type="checkbox" id="friends" name="source" value="Friends">
-                <label for="friends">Friends</label>
+                    <input type="checkbox" id="friends" name="source" value="Friends">
+                    <label for="friends">Friends</label>
 
-                <input type="checkbox" id="advertisement" name="source" value="Advertisement">
-                <label for="advertisement">Advertisement</label>
+                    <input type="checkbox" id="advertisement" name="source" value="Advertisement">
+                    <label for="advertisement">Advertisement</label>
 
-                <input type="checkbox" id="other" name="source" value="Other">
-                <label for="other">Other</label>
-            </fieldset>
-            <button type="submit">Register Now</button>
-        </form>
-        <p id="confirmation" role="status"></p>
-</section>   
-
-    <section>
-    <h2>Saved Registrations</h2>
-    <p>Registrations saved in this browser will appear here.</p>
-    <ul id="registration-list"></ul>
-    <button type="button" id="clear-button">Clear All</button>
-</section>
-
-    
-    
-    
-    
-    
-    
+                    <input type="checkbox" id="other" name="source" value="Other">
+                    <label for="other">Other</label>
+                </fieldset>
+                <button type="submit">Register Now</button>
+            </form>
+            <p id="confirmation" role="status"></p>
+        </section>
+        <section>
+            <h2>Saved Registrations</h2>
+            <p>Registrations saved in this browser will appear here.</p>
+            <ul id="registration-list"></ul>
+            <button type="button" id="clear-button">Clear All</button>
+        </section>
     </main>
-
     <footer>
         <p>© 2026 Robotics Club. All rights reserved.</p>
         <p>Imagine. Build. Innovate.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
