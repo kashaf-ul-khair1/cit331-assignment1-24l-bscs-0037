@@ -63,9 +63,16 @@ nav a:hover {
 }
 /*-----------------------------------------------------*/
 #home {
-    background-color: #F0F1EF;
+    background-color: #FFFFFF;
 }
 
+#home a {
+    font-weight: bold;
+}
+#home1,
+#home2{
+    background-color: #FFFFFF;
+}
 main {
     max-width: 1100px;
     margin: 0 auto;
@@ -77,13 +84,21 @@ section, aside {
     padding: 20px;
     border: 1px solid #C9CED6;
     border-radius: 7px;
+    background-color: #FFFFFF;
 }
 
 article {
     background-color: #F0F1EF;
+    border: 1px solid #C9CED6;
     padding: 20px;
     margin-top: 15px;
     border-radius: 6px;
+}
+
+article a,
+aside a {
+    color: #873C48;
+    font-weight: bold;
 }
 
 /*-----------------------------------------------------*/
@@ -105,7 +120,8 @@ a[href^="https"] {
 }
 
 a:focus {
-    outline: 3px solid #873C48;
+    outline: 1px solid #873C48;
+    
 }
 
 /*-----------------------------------------------------*/
@@ -143,13 +159,17 @@ footer p {
 }
 
 /*-------------------------------------------Event page css-------------------------------------------*/
-
+.he{
+     background-color: #FFFFFF;
+}
 .event-list {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     justify-content: space-between;
     align-items: stretch;
+    background-color: #FFFFFF;
+
 }
 
 .event-list h2 {
@@ -199,6 +219,12 @@ footer p {
 }
 
 /*-------------------------------------------register page css-------------------------------------------*/
+#register {
+    background-color: #FFFFFF;
+}
+#hi{
+    background-color: #FFFFFF;
+}
 #registration-form label {
     display: block;
     margin-top: 12px;

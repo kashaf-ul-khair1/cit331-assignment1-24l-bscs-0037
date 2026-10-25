@@ -72,5 +72,5 @@ clearButton.addEventListener("click", function() {
     message.textContent = "All registrations cleared!";
 });
 
-// Show saved registrations when page opens
+// Show saved registrations when page open
 showRegistrations();
