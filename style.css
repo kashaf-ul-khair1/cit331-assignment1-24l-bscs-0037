@@ -221,3 +221,32 @@ footer p {
     border: 1px solid #C9CED6;
     border-radius: 6px;
 }
+
+#registration-form legend {
+    font-weight: bold;
+    color: #873C48;
+}
+
+#registration-form input[type="checkbox"] {
+    margin: 12px 5px 12px 0;
+}
+
+#registration-form fieldset label {
+    display: inline;
+    margin-right: 12px;
+    font-weight:normal;
+}
+
+#registration-form input:focus, #registration-form select:focus {
+    outline: 2px solid #873C48;
+}
+
+#registration-form button, #clear-button {
+    background-color: #873C48;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
