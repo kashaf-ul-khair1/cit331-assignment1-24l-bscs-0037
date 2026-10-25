@@ -142,3 +142,60 @@ footer p {
     }
 }
 
+/*-------------------------------------------Event page css-------------------------------------------*/
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.event-list h2 {
+    width: 100%;
+}
+
+.event-list article {
+    flex: 1 1 250px;
+    margin-top: 0;
+    padding: 20px;
+    border: 1px solid #C9CED6;
+    border-radius: 6px;
+    background-color: #F0F1EF;
+}
+
+.event-list img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #C9CED6;
+}
+
+.event-list figure {
+    margin: 0;
+}
+
+.event-list article a {
+    color: #873C48;
+    font-weight: bold;
+}
+
+.event-list figcaption {
+    color: #555555;
+    margin-top: 8px;
+}
+
+/*for resonsive design*/
+@media (max-width: 600px) {
+    .event-list {
+        flex-direction: column;
+    }
+
+    .event-list article {
+        width: 100%;
+    }
+}
+
+/*-------------------------------------------register page css-------------------------------------------*/
