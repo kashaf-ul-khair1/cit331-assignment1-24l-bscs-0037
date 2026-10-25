@@ -199,3 +199,25 @@ footer p {
 }
 
 /*-------------------------------------------register page css-------------------------------------------*/
+#registration-form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+#registration-form input[type="text"], #registration-form input[type="email"], #registration-form input[type="tel"], #registration-form select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #C9CED6;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+#registration-form fieldset {
+    margin-top: 18px;
+    padding: 15px;
+    border: 1px solid #C9CED6;
+    border-radius: 6px;
+}
