@@ -250,3 +250,20 @@ footer p {
     border-radius: 6px;
     font-size: 15px;
 }
+
+#registration-form button:hover, #clear-button:hover {
+    background-color: #20211F;
+}
+
+#confirm{
+    color: #873C48;
+    font-weight: bold;
+}
+
+#registration-list li {
+    background-color: #F0F1EF;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
