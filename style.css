@@ -266,4 +266,10 @@ footer p {
     margin-top: 10px;
     border-radius: 6px;
 }
-
+/*for responsiveness*/
+@media (max-width: 600px) {
+    #registration-form button,
+    #clear-button {
+        width: 100%;
+    }
+}
