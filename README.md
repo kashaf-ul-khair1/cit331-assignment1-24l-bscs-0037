@@ -27,3 +27,6 @@ Robotics Club is for students who want to learn robotics and build robots. Stude
 ![Robotics Club Events Page](images/events.png)
 ![Robotics Club Register Page](images/register.png)
 
+## Author
+Kashaf Ul Khair Khalid, Roll no: 24l-bscs-0037
+
